@@ -1,0 +1,18 @@
+server.vimrc
+============
+
+Single-file, minimalistic config for Vim (not nvim!) I use on my servers.
+
+The only purpose this repo exists is that I want to install my config as easy as:
+
+curl -SsL https://raw.githubusercontent.com/nikonov1101/server.vimrc/refs/heads/main/vimrc > /root/.vimrc
+
+Keybindings is a subset of my neovim[1] bindings, rewritten in vimscipt.
+
+The "onedark" color scheme[2] is in use for ages, and I like it much more than the default one,
+so I just glued it up at the end of the file.
+
+-------
+[1] https://github.com/nikonov1101/nvim/blob/main/lua/keys.lua
+[2] https://github.com/joshdick/onedark.vim
+
